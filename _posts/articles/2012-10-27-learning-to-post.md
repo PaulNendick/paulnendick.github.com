@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: article
 title: Learning To Post
 abstract: My First post to paulnendick.github.com using prose.io
