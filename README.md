@@ -1,4 +1,6 @@
-Prose Bootstrap
-=================
+a site with code and docs by Paul Nendick
 
-A minimal template to get started with Jekyll and Prose.
+the site code itself is a byproduct of "Prose Bootstrap" 
+
+http://bootstrap.prose.io
+
