@@ -14,4 +14,4 @@ categories:
 
 * the quick brown fox jumped over the lazy gooner *
 
-![fox, jumping](/assets/images/logo.png)
+![fox, jumping](/assets/images/fox.jpg)
