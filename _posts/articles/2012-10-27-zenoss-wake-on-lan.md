@@ -10,6 +10,6 @@ categories:
 
 ---
 
-# Waking devices in Zenoss using wake-on-lan
+# Waking Zenoss devices using wake-on-lan
 
 Enter Text in Markdown format.
