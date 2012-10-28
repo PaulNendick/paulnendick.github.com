@@ -156,6 +156,9 @@ p {
   padding: 0;
   overflow: visible;
   }
+#header .img {
+  float: left
+}
 
 #main {
   padding-top: 60px;
