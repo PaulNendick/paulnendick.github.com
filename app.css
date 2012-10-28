@@ -141,6 +141,7 @@ p {
   color: white;
   height: 30px;
   font-weight: bold;
+  text-align: center;
   }
 
 #header a.title span {
