@@ -2,7 +2,7 @@
 published: true
 layout: article
 title: Your Post Title
-abstract: Short summary of your article.
+abstract: Waking Zenoss devices using wake-on-lan
 author_twitter: PaulNendick
 author: Paul Nendick
 categories:
