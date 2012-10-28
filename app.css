@@ -135,7 +135,6 @@ p {
   overflow: visible;
   }
 
-
 #header a.title {
   font-size: 14px;
   line-height: 30px;
@@ -158,6 +157,14 @@ p {
   overflow: visible;
   }
 
+#header .img {
+  margin:2px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+}
  
 #main {
   padding-top: 60px;
