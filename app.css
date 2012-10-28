@@ -157,7 +157,12 @@ p {
   overflow: visible;
   }
 #header .img {
-  float: left
+  margin: 1px;
+  border: 1px solid #0000ff;
+  height: 64px;
+  width: 64px;
+  float: left;
+  text-align: center;
 }
 
 #main {
