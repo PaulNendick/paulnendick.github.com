@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: article
 title: Your Post Title
 abstract: Short summary of your article.
@@ -12,4 +12,4 @@ categories:
 
 # Waking Zenoss devices using wake-on-lan
 
-Enter Text in Markdown format.
+I am going to document this Monday, I swear.
