@@ -152,6 +152,7 @@ p {
   margin: 0 auto;
   font-size: 12px;
   position: absolute;
+  top: 0;
   line-height: 64px;
   padding: 0;
   overflow: visible;
