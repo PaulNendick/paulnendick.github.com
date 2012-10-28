@@ -13,3 +13,11 @@ categories:
 # Waking Zenoss devices using wake-on-lan
 
 I am going to document this Monday, I swear.
+
+#STUFF
+
+Junk
+
+#IMAGES, YO
+![WOL icon](/assets/images/wol-icon.jpg)
+
