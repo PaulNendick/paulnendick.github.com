@@ -161,8 +161,8 @@ p {
   }
 
 #header img.title {
-  margin: 1px;
-  border: 0px solid #0000ff;
+  margin: 0px;
+  border: 1px;
   height: 64px;
   width: 64px;
   float: left;
