@@ -157,15 +157,6 @@ p {
   overflow: visible;
   }
 
-#header .img {
-  margin:8px;
-  border:1px solid #0000ff;
-  height:auto;
-  width:auto;
-  float:left;
-  text-align:center;
-}
- 
 #main {
   padding-top: 60px;
   overflow:auto;
