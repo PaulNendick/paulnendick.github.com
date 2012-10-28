@@ -158,7 +158,8 @@ p {
   padding: 0;
   overflow: visible;
   }
-#header .img {
+
+#header img.title {
   margin: 1px;
   border: 1px solid #0000ff;
   height: 64px;
