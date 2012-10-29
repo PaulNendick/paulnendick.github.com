@@ -25,14 +25,15 @@ categories:
 ![WOL machine down](/assets/images/wol-machine-down.jpg) 
 
 ## What can be done?
-1. Select the target machine in the Zenoss devices view
+1. Select the target machine(s) then choose 'wakeonlan' from the Commands dropdown.
 ![WOL machine down](/assets/images/wol-machine-wakeup.jpg) 
 
-2. Select 'wakeonlan' from the Commands dropdown
+2. Watch in amazement as the magic packet is sent on its way.
 ![WOL machine down](/assets/images/wol-send-packet.jpg) 
 
-3. Watch in amazement as the magic packet is sent on its way
+3. Verify the machine actually starts.
 ![WOL machine down](/assets/images/wol-wake-success.jpg) 
 
 
 ## How do I get this 'wakeonlan' command in my Zenoss?
+
