@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: article
 title: Zenoss wake-on-lan
 abstract: Waking Zenoss devices using wake-on-lan
@@ -20,4 +20,3 @@ Junk
 
 #IMAGES, YO
 ![WOL icon](/assets/images/wol-icon.jpg)
-
