@@ -25,7 +25,12 @@ categories:
 ![WOL machine down](/assets/images/wol-machine-down.jpg) 
 
 
+## What can be done?
+![WOL machine down](/assets/images/wol-send-packet.jpg) 
 
-## What does it do?
+![WOL machine down](/assets/images/wol-machine-wakeup.jpg) 
+
+![WOL machine down](/assets/images/wol-wake-success.jpg) 
+
 
 ## How do I set
