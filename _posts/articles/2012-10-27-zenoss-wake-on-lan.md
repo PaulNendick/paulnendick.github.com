@@ -31,9 +31,8 @@ categories:
 2. Watch in amazement as the magic packet is sent on its way.
 ![WOL machine down](/assets/images/wol-send-packet.jpg) 
 
-3. Verify the machine actually starts.
+3. Verify the machine actually started.
 ![WOL machine down](/assets/images/wol-wake-success.jpg) 
 
 
 ## How do I get this 'wakeonlan' command in my Zenoss?
-
