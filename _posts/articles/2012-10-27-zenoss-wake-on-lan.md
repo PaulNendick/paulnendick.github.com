@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: article
 title: Zenoss wake-on-lan
 abstract: Waking Zenoss devices using wake-on-lan
@@ -12,7 +12,7 @@ categories:
 
 # Waking Zenoss devices using wake-on-lan
 
-I am going to document this Monday, I swear.
+[Zenoss](http://www.zenoss.com/) is a remarkably featureful monitoring system straight out of the box. But it lacks an obvious feature that anyone who's gone through the trouble of monitoring lots of devices will miss: [wake-on-lan](http://en.wikipedia.org/wiki/Wake-on-LAN)
 
 #STUFF
 
