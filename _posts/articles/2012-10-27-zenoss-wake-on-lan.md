@@ -10,7 +10,7 @@ categories:
 
 ---
 
-[Zenoss](http://www.zenoss.com/) is a hugely featureful monitoring system straight out of the box. But it lacks an obvious one that anyone with a large network will miss: [wake-on-LAN](http://en.wikipedia.org/wiki/Wake-on-LAN).
+[Zenoss](http://www.zenoss.com/) is a powerful monitoring system packed with bells and whistles straight out of the box. But it lacks an obvious feature that anyone with a large network will miss: [wake-on-LAN](http://en.wikipedia.org/wiki/Wake-on-LAN).
 
 ##Who is this guide for?
 
