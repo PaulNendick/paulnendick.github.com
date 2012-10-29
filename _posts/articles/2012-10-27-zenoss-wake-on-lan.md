@@ -24,13 +24,15 @@ categories:
 
 ![WOL machine down](/assets/images/wol-machine-down.jpg) 
 
-
 ## What can be done?
-![WOL machine down](/assets/images/wol-send-packet.jpg) 
-
+1. Select the target machine in the Zenoss devices view
 ![WOL machine down](/assets/images/wol-machine-wakeup.jpg) 
 
+2. Select 'wakeonlan' from the Commands dropdown
+![WOL machine down](/assets/images/wol-send-packet.jpg) 
+
+3. Watch in amazement as the magic packet is sent on its way
 ![WOL machine down](/assets/images/wol-wake-success.jpg) 
 
 
-## How do I set
+## How do I get this 'wakeonlan' command in my Zenoss?
