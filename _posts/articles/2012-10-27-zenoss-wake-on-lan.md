@@ -24,11 +24,10 @@ categories:
 
 * There's a machine on your network that you really want powered on but isn't. It's really far away, you're lazy and it's cold outside.
 
-![WOL machine down](/assets/images/wol-machine-down.jpg) 
+![WOL machine down](/assets/images/wol-machine-down.png) 
 
 
 
 ## What does it do?
 
 ## How do I set
-
