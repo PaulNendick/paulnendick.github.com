@@ -23,5 +23,3 @@ categories:
 
 *
 
-#IMAGES, YO
-![WOL icon](/assets/images/wol-icon.jpg)
