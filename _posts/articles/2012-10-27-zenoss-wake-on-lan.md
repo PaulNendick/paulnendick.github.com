@@ -22,7 +22,7 @@ categories:
 
 ![WOL icon](/assets/images/wol-bios-enable.jpg)
 
-![WOL icon](/assets/images/wol-mac-enable.jpg)
+![WOL icon](/assets/images/wol-mac-enable.png)
 
 #IMAGES, YO
 ![WOL icon](/assets/images/wol-icon.jpg)
