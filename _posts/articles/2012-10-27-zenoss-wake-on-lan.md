@@ -20,9 +20,7 @@ categories:
 
 * You've got loads of hardware on our network with Wake-on-LAN enabled
 
-![WOL icon](/assets/images/wol-bios-enable.jpg)
-
-![WOL icon](/assets/images/wol-mac-enable.png)
+![WOL icon](/assets/images/wol-bios-enable.jpg) ![WOL icon](/assets/images/wol-mac-enable.png)
 
 #IMAGES, YO
 ![WOL icon](/assets/images/wol-icon.jpg)
