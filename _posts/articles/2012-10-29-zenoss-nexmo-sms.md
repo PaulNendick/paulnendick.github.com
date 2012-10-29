@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: article
 title: Zenoss alert SMS sending using Nexmo
 abstract: Raise Zenoss alerts as SMS messages sent via Nemxo
