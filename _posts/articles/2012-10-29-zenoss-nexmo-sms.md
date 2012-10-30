@@ -10,6 +10,11 @@ categories:
 
 ---
 
-# How does it work?
+# Who is this guide for?
 
 Enter Text in Markdown format.
+
+# What can be done?
+
+# Amazing. Now how do I get do this myself?
+
