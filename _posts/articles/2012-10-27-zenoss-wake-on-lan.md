@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: article
 title: Zenoss and Wake-on-LAN
 abstract: Waking Zenoss-monitored devices using Wake-on-LAN
@@ -60,5 +60,3 @@ categories:
 Hopefully this gets you up onto your feet using `wakeonlan` with Zenoss. If you need more help or have any suggestions how this document can be improved, please leave feedback using the link below.
 
 -Paul
-
-
