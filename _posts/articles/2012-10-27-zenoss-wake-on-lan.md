@@ -24,7 +24,7 @@ categories:
 
     ![WOL machine down](/assets/images/wol-machine-down.jpg) 
 
-## What can be done?
+# What can be done?
 1. Select the target machine(s) then choose 'wakeonlan' from the Commands dropdown.
 
     ![WOL machine down](/assets/images/wol-machine-wakeup.jpg) 
