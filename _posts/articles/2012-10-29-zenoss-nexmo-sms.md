@@ -11,8 +11,11 @@ categories:
 ---
 
 # Who is this guide for?
+* You've already gone through the trouble of [installing and configuring Zenoss](http://community.zenoss.org/community/documentation).
 
-Enter Text in Markdown format.
+* You've since learned that things in your network - important things - occasionally break.
+
+* You would like to know when things do break. You have a mobile phone that can receieve SMS messages and can't stop thinking "There must be a solution in here somewhere!" 
 
 # What can be done?
 
