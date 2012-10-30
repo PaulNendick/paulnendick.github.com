@@ -17,24 +17,30 @@ categories:
 * You've already gone through the trouble of [installing and configuring Zenoss](http://community.zenoss.org/community/documentation).
 
 * You've got loads of hardware on your network with Wake-on-LAN enabled
+
     ![WOL Bios](/assets/images/wol-bios-enable.jpg) ![WOL Mac](/assets/images/wol-mac-enable.jpg)
 
 * There's a machine on your network that you really want powered on but isn't. It's really far away, you're feeling lazy and it's cold outside.
+
 ![WOL machine down](/assets/images/wol-machine-down.jpg) 
 
 ## What can be done?
 1. Select the target machine(s) then choose 'wakeonlan' from the Commands dropdown.
+
 ![WOL machine down](/assets/images/wol-machine-wakeup.jpg) 
 
 2. Watch in amazement as the magic packet is sent on its way.
+
 ![WOL machine down](/assets/images/wol-send-packet.jpg) 
 
 3. Verify the machine actually started.
+
 ![WOL machine down](/assets/images/wol-wake-success.jpg) 
 
 
 ## Amazing. Now how do I get this 'wakeonlan' command in my Zenoss?
 1. install the `wakeonlan` command-line utility on all of your Zenoss collector hosts
+
 ![WOL install wakeonlan command](/assets/images/wol-cli-install.png) 
 
 
