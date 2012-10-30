@@ -38,7 +38,7 @@ categories:
     ![WOL machine down](/assets/images/wol-wake-success.jpg) 
 
 
-# Amazing. Now how do I get this 'wakeonlan' command in my Zenoss?
+# Amazing. Now how can I do this for myself?
 1. Install the `wakeonlan` command-line utility on all of your Zenoss collector hosts
 
     ![WOL install wakeonlan command](/assets/images/wol-cli-install.png) 
