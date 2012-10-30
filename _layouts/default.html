@@ -20,6 +20,10 @@
 
     <div id='main'>
     {{content}}
+    {% for post in site.posts %}
+      <p>{{ post.date }}</p>
+      <p>{{ post.title }}</p>
+    {% endfor %}
     </div>
   </div>
 
