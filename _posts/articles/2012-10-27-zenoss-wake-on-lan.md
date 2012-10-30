@@ -12,7 +12,7 @@ categories:
 
 [Zenoss](http://www.zenoss.com/) is a powerful monitoring system packed with bells and whistles straight out of the box. But it lacks an obvious feature that anyone with a large network will miss: [wake-on-LAN](http://en.wikipedia.org/wiki/Wake-on-LAN).
 
-##Who is this guide for?
+#Who is this guide for?
 
 * You've already gone through the trouble of [installing and configuring Zenoss](http://community.zenoss.org/community/documentation).
 
@@ -38,7 +38,7 @@ categories:
     ![WOL machine down](/assets/images/wol-wake-success.jpg) 
 
 
-## Amazing. Now how do I get this 'wakeonlan' command in my Zenoss?
+# Amazing. Now how do I get this 'wakeonlan' command in my Zenoss?
 1. Install the `wakeonlan` command-line utility on all of your Zenoss collector hosts
 
     ![WOL install wakeonlan command](/assets/images/wol-cli-install.png) 
