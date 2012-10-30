@@ -20,5 +20,6 @@ categories:
 # What can be done?
 * This
     ![SMS Goal](/assets/images/sms-your-want.png)
+    ![WOL machine down](/assets/images/wol-machine-down.jpg) 
 
 # Amazing. Now how can I do this for myself?
