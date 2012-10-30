@@ -1,7 +1,7 @@
 ---
 published: true
 layout: article
-title: Zenoss Wake-on-LAN
+title: Zenoss and Wake-on-LAN
 abstract: Waking Zenoss-monitored devices using Wake-on-LAN
 author_twitter: PaulNendick
 author: Paul Nendick
