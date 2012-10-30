@@ -16,5 +16,4 @@ Enter Text in Markdown format.
 
 # What can be done?
 
-# Amazing. Now how do I get do this myself?
-
+# Amazing. Now how can I do this for myself?
