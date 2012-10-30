@@ -56,3 +56,8 @@ categories:
     
 ![WOL zenoss name command](/assets/images/wol-configure-command.png)
 
+Hopefully this gets you up onto your feet using `wakeonlan` with Zenoss. If you need more help or have any suggestions how this document can be improved, please leave feedback using the link below.
+
+-Paul
+
+
