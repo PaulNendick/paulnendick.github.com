@@ -44,6 +44,6 @@ categories:
 ![WOL install wakeonlan command](/assets/images/wol-cli-install.png) 
 
 
-   * note: users of Windows, CentOS and OS X are on your own
+   * note: users of Windows, CentOS and OS X are left to deal with their poor life choices on their own
 
 2. 
