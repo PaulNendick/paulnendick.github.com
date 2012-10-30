@@ -54,5 +54,5 @@ categories:
 3. Configure this new command. Name it however you wish but you must define the command as:
     wakeonlan ${device/getDeviceMacaddress}
     
-![WOL zenoss name command](/assets/images/wol-configure-command)
+![WOL zenoss name command](/assets/images/wol-configure-command.png)
 
