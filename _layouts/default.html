@@ -11,17 +11,16 @@
 </head>
 <body>
   <div class="article-navigation">
-    <h1>Posts:</h1>
     {% for post in site.posts %}
-      <h3><a href={{ post.url }}>{{ post.title }}</a></h3>
+      <h2><a href={{ post.url }}>{{ post.title }}</a></h2>
     {% endfor %}
   </div>
   <div id='container'>
     <div id="header">
       <div class="navigation">
         <img class="title" src="http://www.gravatar.com/avatar/3ddf9d795f5ac71cb2c835dec458b5ac.png" >
-        <a href="{{site.baseurl}}" class="title">Paul Nendick &middot; Tech Docs </a>
-      </div>
+	<a href="{{site.baseurl}}" class="title">Paul Nendick &middot; Tech Docs </a>
+	</div>
     </div>
 
     <div id='main'>
