@@ -18,5 +18,6 @@ categories:
 * You would like to know when things do break. You have a mobile phone that can receieve SMS messages and can't stop thinking "There must be a solution in here somewhere!" 
 
 # What can be done?
+     ![SMS Goal](/assets/images/sms-your-want.png)
 
 # Amazing. Now how can I do this for myself?
