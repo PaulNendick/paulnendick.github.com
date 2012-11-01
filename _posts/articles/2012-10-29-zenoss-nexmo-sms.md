@@ -25,7 +25,7 @@ categories:
 ## There are some prerequisites
 * All your monitored devices in Zenoss are well organised into Locations, Systems, Groups, Networks, and - most importantly - Classes. If not, [take some time to do this](http://www.packtpub.com/article/zenoss-core-3x-device-setup-administration) and come back to this guide later. 
 
-* You have an account with [Nexmo](http://nexmo.com/) topped up with at least a bit of credit. Nexmo "is a cloud-based SMS API that lets you send and receive high volume of messages at wholesale rates." They're also the most cost-effective solution I know of for this task.
+* You have an account with [Nexmo](http://nexmo.com/). Nexmo "is a cloud-based SMS API that lets you send and receive high volume of messages at wholesale rates." They're also the most cost-effective solution I know of for this task. Create an account with them,  top with a bit of credit and make not of your API key.
 
 
 #TO BE CONTINUED...
