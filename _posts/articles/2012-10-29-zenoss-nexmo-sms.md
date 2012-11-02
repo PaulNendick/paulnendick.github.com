@@ -27,7 +27,7 @@ categories:
 
 * You have an account with [Nexmo](http://nexmo.com/). Nexmo "is a cloud-based SMS API that lets you send and receive high volume of messages at wholesale rates." They're also the most cost-effective solution I know of for this task. Create an account with them,  top with a bit of credit and make note of your API key and password for later.
 
-* 10 minutes
+* 15 minutes
 
 ## Get the code
 Download the [zenoss-nexmo](https://github.com/baseblack/zenoss-nexmo) code from github.
