@@ -39,21 +39,13 @@ There are two files of relevance:
 ## Configure
 1. Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 
-    ```python
     27     try:
-    
-    28         msg = sys.stdin.read()
-    
+    28         msg = sys.stdin.read()    
     29         r = "json"
-    
-    30         u = "ae396fb2"
-    
-    31         p = "4634044d"
-    
-    32         f = "BaseblackHQ"
-    
+    30         u = "ae396fb2"  
+    31         p = "4634044d"    
+    32         f = "BaseblackHQ"   
     33         payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
-    ```
 
 2. Copy `nexmomessage.py` and `zen2nexmo` to the `bin` directory beneath your `ZENHOME` Zenoss installation directory, i.e. `/opt/zenoss/zenoss/bin/`.
 
