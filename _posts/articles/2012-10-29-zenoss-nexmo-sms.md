@@ -47,15 +47,15 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
          f = "BaseblackHQ"
          payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
 
-   * change "API key" to the 8-character alphanumberic API key provided to you by Nexmo
+* change "API key" to the 8-character alphanumberic API key provided to you by Nexmo
    
-   * change "password" to the password you selected for your Nexmo account
+* change "password" to the password you selected for your Nexmo account
    
-   * change "BaseblackHQ" to what you want to see in the From: field in SMS
+* change "BaseblackHQ" to what you want to see in the From: field in SMS
    
-   * keep the quotation marks
+* keep the quotation marks
    
-   * yes, you should never code passwords into config files much less code
+* yes, you should never code passwords into config files much less code
 
 1. Copy `nexmomessage.py` and `zen2nexmo` to the `bin` directory beneath your `$ZENHOME` Zenoss installation directory, i.e. `/opt/zenoss/zenoss/bin/`.
 
