@@ -62,7 +62,9 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 
 3. Edit your user settings inside of Zenoss to include your mobile telephone number
 
-4. Again in your user settings, add a new Alerting Rule for yourself. Click on Alerting Rules in the leftmost column then choose "Add Alerting Rule..." from the cog menu above. ![SMS Nexmo command](/assets/images/sms-alert-create.png) 
+4. Again in your user settings, add a new Alerting Rule for yourself. Click on Alerting Rules in the leftmost column then choose "Add Alerting Rule..." from the cog menu above.
+
+![SMS Nexmo command](/assets/images/sms-alert-create.png) 
 
 ## Test
 
