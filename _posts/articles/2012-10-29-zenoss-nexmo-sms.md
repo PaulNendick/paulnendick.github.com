@@ -37,9 +37,9 @@ There are two files of relevance:
 * `zen2nexmo` - integrates the Zenoss pager function with the API from `nexmomessage.py`
 
 ## Configure
-1. Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
+Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 
-{% highlight python %}
+{% highlight ruby %}
 27     try:
 28         msg = sys.stdin.read()    
 29         r = "json"
