@@ -42,10 +42,10 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 {% highlight python %}
     try:
          msg = sys.stdin.read()    
-         r = "json"
-         u = "ae396fb2"  
-         p = "4634044d"    
-         f = "BaseblackHQ"   
+         **r = "json"**
+         **u = "ae396fb2"**  
+         **p = "4634044d"**    
+         **f = "BaseblackHQ"**   
          payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
 {% endhighlight %}
 
