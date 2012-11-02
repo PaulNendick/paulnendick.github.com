@@ -30,8 +30,9 @@ categories:
 * 15 minutes
 
 ## Get and deploy the code
-Download the [zenoss-nexmo](https://github.com/baseblack/zenoss-nexmo) code from github. There are two files of relvance:
-* ```python nexmomessage.py```
+Download the [zenoss-nexmo](https://github.com/baseblack/zenoss-nexmo) code from github. There are two files of relevance:
+* ```nexmomessage.py``` - [marcuz/libpynexmo](https://github.com/marcuz/libpynexmo), a copy of which resides [zenoss-nexmo/3rdParty](https://github.com/baseblack/zenoss-nexmo/tree/master/3rdParty) in for safe keeping 
+* ```zen2nexmo```
 
 ## Configure
 ## Test
