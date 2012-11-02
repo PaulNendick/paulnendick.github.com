@@ -42,7 +42,7 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
     try:
          msg = sys.stdin.read()    
          r = "json"
-         u = *API key_*
+         u = *API key*
          p = " _*password* "
          f = "*BaseblackHQ_*"
          payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
