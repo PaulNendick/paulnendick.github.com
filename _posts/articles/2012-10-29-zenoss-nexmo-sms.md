@@ -58,7 +58,7 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 2. In your Zenoss settings, point the "Page Command" to zen2nexmo with the command:
 `$ZENHOME/bin/zen2nexmo $RECIPIENT`
 
-![SMS Nexmo command](/assets/images/sms-nexmo-command.png) 
+     ![SMS Nexmo command](/assets/images/sms-nexmo-command.png) 
 
 
 ## Test
