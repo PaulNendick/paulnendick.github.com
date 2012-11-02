@@ -48,7 +48,6 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
          payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
 
 * change "API key" to the 8-character alphanumberic API key provided to you by Nexmo
-   
 * change "password" to the password you selected for your Nexmo account
    
 * change "BaseblackHQ" to what you want to see in the From: field in SMS
