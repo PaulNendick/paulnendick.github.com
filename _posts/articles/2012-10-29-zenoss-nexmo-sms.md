@@ -72,7 +72,9 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 
 This translates to "send me an SMS if a Critical event affecting a Production-class device remains unresolved for 2 minutes or longer. This is why it's very important to have organised your devices into appropriate Device Classes: you don't want to be SMS spammed and use all your Nexmo credit when things like laptops are shut down and awakened.
 
-## Test
+# Job done!
+This should be all you need. Test it by creating an event on one of your Production-class devices perhaps by raising a test SNMP trap. 120 seconds later you should be seeing an SMS on the mobile number configured in your Zenoss user account.
 
+If you need more help or have any suggestions how this document can be improved, please leave feedback using the link below.
 
-#TO BE CONTINUED...
+-Paul
