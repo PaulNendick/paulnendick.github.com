@@ -38,6 +38,7 @@ There are two files of relevance:
 
 ## Configure
 1. Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
+
 {% highlight python %}
 27     try:
 28         msg = sys.stdin.read()    
