@@ -64,7 +64,7 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 
 4. Again in your user settings, add a new Alerting Rule for yourself. Click on Alerting Rules in the leftmost column then choose "Add Alerting Rule..." from the cog menu above.
 
-    ![SMS Nexmo command](/assets/images/sms-alert-configure.png) 
+    ![SMS Nexmo alert create](/assets/images/sms-alert-create.png) 
 
 ## Test
 
