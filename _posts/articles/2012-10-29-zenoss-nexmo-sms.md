@@ -49,7 +49,7 @@ There are two files of relevance:
 33         payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
 {% endhighlight %}
 
-2. Copy `nexmomessage.py` and `zen2nexmo` to the `bin` directory beneath your `ZENHOME` Zenoss installation directory, i.e. `/opt/zenoss/zenoss/bin/`.
+1. Copy `nexmomessage.py` and `zen2nexmo` to the `bin` directory beneath your `ZENHOME` Zenoss installation directory, i.e. `/opt/zenoss/zenoss/bin/`.
 
 ## Test
 
