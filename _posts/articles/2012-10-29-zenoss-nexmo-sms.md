@@ -41,11 +41,17 @@ There are two files of relevance:
 
     ```python
     27     try:
+    
     28         msg = sys.stdin.read()
+    
     29         r = "json"
+    
     30         u = "ae396fb2"
+    
     31         p = "4634044d"
+    
     32         f = "BaseblackHQ"
+    
     33         payload = {'reqtype': r, 'password': p, 'from': f, 'to': t, 'username':u}
     ```
 
