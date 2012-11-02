@@ -66,6 +66,11 @@ Edit the hard-coded configuration details in `nexmomessage.py` on lines 29-32:
 
     ![SMS Nexmo alert create](/assets/images/sms-alert-create.png) 
 
+5. I recommend starting with this settings:
+
+    ![SMS Nexmo alert configure](/assets/images/sms-alert-configure.png) 
+
+
 ## Test
 
 
