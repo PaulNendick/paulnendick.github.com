@@ -11,11 +11,11 @@ categories:
 ---
 
 # Who is this guide for?
-Anyone who uses Autodesk Maya in anger, especially those of us doing so on Linux platforms. This list is a living work-in-progress. All details have been culled from official documentation, mailing lists, Autodesk support and the occasional reverse engineering. 
+Anyone who uses Autodesk Maya in anger, especially those of us doing so on Linux platforms. All details have been culled from official documentation, mailing lists, Autodesk support and the occasional reverse engineering. 
 
 Many of these settings and better information can be gleaned by googling for [Autodesk's official docs](http://lmgtfy.com/?q=maya+2013+user+guide) but there are also quite a few items on this page not listed in any official documentation.
 
-Please share any updates, addendums or corrections using the feedback link at the bottom of this post.
+This list is a living work-in-progress. So please share any updates, addendums or corrections using the feedback link at the bottom of this post.
 
 -Paul
 
