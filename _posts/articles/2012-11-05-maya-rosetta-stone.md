@@ -1,8 +1,8 @@
 ---
 published: false
 layout: article
-title: Your Post Title
-abstract: Short summary of your article.
+title: Maya Rosetta Stone
+abstract: A compendium of all known configuration otions for Autodesk Maya.
 author_twitter: PaulNendick
 author: Paul Nendick
 categories:
