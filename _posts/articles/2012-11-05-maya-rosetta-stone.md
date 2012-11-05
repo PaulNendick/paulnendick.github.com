@@ -164,7 +164,7 @@ Enable verbose logging of hotbox actions for debugging issues on Linux. Slows Ma
 ## Installation options
 ### MAYA_VERSION
 
-This is a Baseblack invention making it ~easy~ possible to install multiple versions of Maya simultaneously.
+This is a Baseblack invention making it possible to install multiple versions of Maya simultaneously.
 
     export MAYA_VERSION=default
 
