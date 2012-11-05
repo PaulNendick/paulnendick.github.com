@@ -408,3 +408,82 @@ Use 1, 2 or 3 for greater verbosity.
 This enables the use of the AdLM Thin Client configuration file discussed separately below.
 
      export AUTODESK_ADLM_THINCLIENT_ENV=$MAYA_LOCATION/adlm/AdlmThinClientCustomEnv.xml
+
+## Configuration Files
+In addition to the usual environment variables there is now at least one XML configuration file where one can shoot themselves in the foot with Maya settings. 
+
+### AdlmThinClientCustomEnv.xml
+This file is quite powerful in that one relocate the various directories the Maya installer creates into something organised, sensible, supportable and working.
+
+#### Setup
+
+From the Licensing options above, you must first enable the use of this file with the following environment variable:
+
+    export AUTODESK_ADLM_THINCLIENT_ENV=$MAYA_LOCATION/adlm/AdlmThinClientCustomEnv.xml
+
+#### Use
+This is an XML file bearing options documented in the AdLM Thin Client User Guide. Not mentioned in that guide however is the extremely important key:
+
+    <ADLMCUSTOMENV VERSION="1.0.0.0">
+
+This oversight has caused the author many days of existential pain and suffering.
+
+
+#### Example
+The following file snippet actually works which is in itself a minor miracle:
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <ADLMCUSTOMENV VERSION="1.0.0.0">
+    <PLATFORM OS="Linux">
+    <KEY ID="ADLM_COMMON_BIN_LOCATION">
+    <STRING>$MAYA_LOCATION/adlm/bin</STRING>
+    </KEY>
+    <KEY ID="ADLM_COMMON_LIB_LOCATION">
+    <STRING>$MAYA_LOCATION/adlm/lib64</STRING>
+    </KEY>
+    <KEY ID="ADLM_COMMON_LOCALIZED_DATA_LOCATION">
+    <STRING>$MAYA_LOCATION/adlm/en_US</STRING>
+    </KEY>
+    <KEY ID="ADLM_ERROR_TABLE_LOCATION">
+    <STRING>$MAYA_LOCATION/adlm</STRING>
+    </KEY>
+    <KEY ID="ADLM_PIT_FILE_LOCATION">
+    <STRING>$MAYA_LOCATION/adlm</STRING>
+    </KEY>
+    <KEY ID="ADLM_CASCADE_FILE_LOCATION">
+    <STRING>$MAYA_LOCATION/adlm</STRING>
+    </KEY>
+    </PLATFORM>
+    </ADLMCUSTOMENV>
+
+## Product Keys
+Product keys are necessary for the installation of an Autodesk product. Here is a sampling of some of the Autodesk 2012 products:
+
+    657D1 = Maya 2012
+    128D1 = Max 2012 
+    727D1 = MotionBuilder 2012
+    498D1 = Mudbox 2012
+    797D1 = Inventor Professional  2012
+    240D1 = Revit Architecture 2012 
+    001D1 = AutoCAD 2012
+
+From this sampling, you can extrapolate the product keys for the 2011 products:
+
+    657C1 = Maya 2011
+    128C1 = Max 2011
+    727C1 = MotionBuilder 2011
+    498C1 = Mudbox 2011
+    797C1 = Inventor Professional  2011
+    240C1 = Revit Architecture 2011
+    001C1 = AutoCAD 2011
+
+## Acknowledgements
+
+This document was researched using the following resources:
+http://download.autodesk.com/us/maya/2011help/index.html
+http://www.toxik.sk/mayaenv-configuration-of-variables/
+http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/
+http://mayastation.typepad.com/maya-station/2010/06/maya-2011-on-xeon-systems.html
+http://studiosysadmins.com/wiki/display/Maya2010_NFS/
+http://forums.cgsociety.org/archive/index.php/t-822564.html
+http://mayastation.typepad.com/maya-station/2010/07/maya-2011-on-linux-and-the-hotbox.html
