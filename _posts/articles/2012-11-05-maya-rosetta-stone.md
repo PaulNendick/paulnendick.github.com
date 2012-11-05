@@ -15,7 +15,7 @@ Anyone who uses Autodesk Maya in anger, especially those of us doing so on Linux
 
 Many of these settings and better information can be gleaned by googling for [Autodesk's official docs](http://lmgtfy.com/?q=maya+2013+user+guide) but there are also quite a few items on this page not listed in any official documentation.
 
-Please share any updates, addendums or corrections using the Feedback at the bottom of the page.
+Please share any updates, addendums or corrections using the feedback link at the bottom of this post.
 
 -Paul
 
