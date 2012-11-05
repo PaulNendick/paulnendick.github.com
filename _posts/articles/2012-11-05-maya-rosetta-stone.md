@@ -347,6 +347,31 @@ Maya includes the camera background in the calculation of reflection and refract
 
     export MAYA_RENDERER_RT+BACKGROUND_COLOR=
 
+### MAYA_MMSET_DEFAULT_XCURSOR
+Creates a left pointer cursor to use when resetting the cursor on use of the Marking Menus. Useful when using GNOME window managers that otherwise revert back to the default “X” cursor. Fred's favourite!
+
+export MAYA_MMSET_DEFAULT_XCURSOR=1
+
+### MAYA_MM_PAUSE_EXPOSE
+Doesn't exist in 2010, added to 2009 after 2010 released - status in 2011 unknown. Effect unknown
+
+    export MAYA_MM_PAUSE_EXPOSE=1
+
+### WF_IMF_SGI_MATTE
+Allows Maya to save SGI format image files with matte.
+
+    export WF_IMF_SGI_MATTE
+
+### WF_IMF_CIN_CORRECTION
+Issue#101914 - colour correction needed for Cineon files
+
+    export WF_IMF_CIN_CORRECTION=both
+
+### WF_IMF_CIN_WHITE_POINT
+Issue#101914 - colour correction needed for Cineon files
+
+    export WF_IMF_CIN_WHITE_POINT=685
+
 
 ## Licensing options
 ### LM_LICENSE_FILE
