@@ -113,4 +113,60 @@ Defines the search paths for Maya module files. A module file describes the inst
 
     export MAYA_MODULE_PATH=/somewhere/sensible:$MAYA_MODULE_PATH
     
-###
+### MAYA_PRESET_PATH
+Location of Maya presets.
+
+     export MAYA_PRESET_PATH=
+
+### MAYA_PROJECTS_DIR
+The default location of maya projects.
+
+    export MAYA_PROJECTS_DIR=
+
+
+### MAYA_PROJECT
+Maya will allways start in this project.
+
+    export MAYA_PROJECT=
+
+### MAYA_MR_STARTUP_DIR
+Location of the maya.rayrc startup file.
+
+    export MAYA_MR_STARTUP_DIR=$MAYA_LOCATION/mentalray
+
+### MI_CUSTOM_SHADER_PATH
+Locations of mentalray include *.mi files.
+
+    export MI_CUSTOM_SHADER_PATH=$MAYA_LOCATION/mentalray/include
+    
+## Debugging
+
+### MAYA_CMD_FILE_OUTPUT
+This feature is useful for tracking down error messages when Maya crashes upon startup.
+
+    export MAYA_CMD_FILE_OUTPUT=$TMPDIR/maya.log
+
+### WINEDITOR
+Allows you to override the Expression Editor and use your own editor. The editor must be set to run in the foreground.
+
+    export WINEDITOR=/usr/bin/scite
+
+### MAYA_DEBUG_ENABLE_CRASH_REPORTING
+Enable writing of crash report logs and dump files to temp directory. Crash report file example: `MayaCrashLog[yymmdd.hhmm].log`
+
+    export MAYA_DEBUG_ENABLE_CRASH_REPORTING=1
+
+### MAYA_HBDOWN_DEBUG
+Enable verbose logging of hotbox actions for debugging issues on Linux. Slows Maya considerably.
+
+    export MAYA_HBDOWN_DEBUG=1
+    
+## Installation options
+This is a Baseblack invention making it ~~easy~~ possible to install multiple versions of Maya simultaneously.
+
+    export MAYA_VERSION=default
+
+
+
+
+    
