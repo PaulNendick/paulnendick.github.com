@@ -481,16 +481,16 @@ From this sampling, you can extrapolate the product keys for the 2011 products:
 
 This document was researched using the following resources:
 
-[http://download.autodesk.com/us/maya/2011help/index.html](http://download.autodesk.com/us/maya/2011help/index.html)
+* [http://download.autodesk.com/us/maya/2011help/index.html](http://download.autodesk.com/us/maya/2011help/index.html)
 
-[http://www.toxik.sk/mayaenv-configuration-of-variables/](http://www.toxik.sk/mayaenv-configuration-of-variables/)
+* [http://www.toxik.sk/mayaenv-configuration-of-variables/](http://www.toxik.sk/mayaenv-configuration-of-variables/)
 
-[http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/)
+* [http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/)
 
-[http://mayastation.typepad.com/maya-station/2010/06/maya-2011-on-xeon-systems.html](http://mayastation.typepad.com/maya-station/2010/06/maya-2011-on-xeon-systems.html)
+* [http://mayastation.typepad.com/maya-station/2010/06/maya-2011-on-xeon-systems.html](http://mayastation.typepad.com/maya-station/2010/06/maya-2011-on-xeon-systems.html)
 
-[http://studiosysadmins.com/wiki/display/Maya2010_NFS/](http://studiosysadmins.com/wiki/display/Maya2010_NFS/)
+* [http://studiosysadmins.com/wiki/display/Maya2010_NFS/](http://studiosysadmins.com/wiki/display/Maya2010_NFS/)
 
-[http://forums.cgsociety.org/archive/index.php/t-822564.html](http://forums.cgsociety.org/archive/index.php/t-822564.html)
+* [http://forums.cgsociety.org/archive/index.php/t-822564.html](http://forums.cgsociety.org/archive/index.php/t-822564.html)
 
-[http://mayastation.typepad.com/maya-station/2010/07/maya-2011-on-linux-and-the-hotbox.html](http://mayastation.typepad.com/maya-station/2010/07/maya-2011-on-linux-and-the-hotbox.html)
+* [http://mayastation.typepad.com/maya-station/2010/07/maya-2011-on-linux-and-the-hotbox.html](http://mayastation.typepad.com/maya-station/2010/07/maya-2011-on-linux-and-the-hotbox.html)
