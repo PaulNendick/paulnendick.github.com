@@ -47,6 +47,7 @@ This variable defines your personal Maya application directory.
 
     export MAYA_APP_DIR=$HOME/maya
 
+
 ### MAYA_UI_LANGUAGE
 This is most useful when you want to run Maya in English on a Japanese version of Windows OS, i.e. never.
 
