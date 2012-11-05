@@ -25,7 +25,10 @@ Maya provides to its users an enormous array of sporadically documented features
 * Mel scripts
 * Python scripts
 * shaders
-* stability of Maya itself
+* image quality
+* desktop integration
+* tablet performance
+* runtime stability
 * more
 
 # Prerequisites
@@ -35,7 +38,7 @@ Maya provides to its users an enormous array of sporadically documented features
 * bash shell and not csh as the latter is [bad for you](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot)
 
 # Environment Variables
-Following is a list of known Maya variables and what they configure. You can override these in your shell or embed them in wrapper script.
+Following is a list of known Maya variables and what they configure. You can override these in your shell or embed them in [wrapper script](http://tldp.org/LDP/abs/html/wrapper.html).
 
 ## Personal options
 
@@ -55,11 +58,27 @@ Alters the quality of jpegs written by Maya.
 
     export AW_JPEG_Q_FACTOR=95
 
-
 ## Performance options
 
 ### MAYA_NO_TBB
 This issue is related to threading problem in the Maya Batch executable. Maya uses both TBB and OpenMP threading paths. When rendering we are seeing issues on the TBB side of the threading code were it seems to be calling too many thread counts and driving up the the systems ram causing and causing it to eventually crash almost instantly.
 
     export MAYA_NO_TBB=1
+    
+### MAYA_NO_PARALLEL_DRAW
+If when using CGFX based shaders in a scene Maya crashes or freezes this will disable drawing of a shader which is still being evaluated.
+
+    export MAYA_NO_PARALLEL_DRAW=1
+
+### MAYA_NO_PARALLEL_MEMCPY
+Set this environment variable to 1 to disable parallel memory copy. 
+
+In some cases, parallel memory copy is faster on Opteron and Nehalem based systems. However, it may also be slower on Xeon systems, in which case you may want to disable parallel memory. If you are using Maya 2011 on Xeon system and are faced with speed issues, this might be useful.
+
+    unset MAYA_NO_PARALLEL_MEMCPY
+
+
+
+
+
 
