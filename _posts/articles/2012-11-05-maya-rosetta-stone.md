@@ -11,7 +11,11 @@ categories:
 ---
 
 # Who is this guide for?
-Anyone who uses Autodesk Maya in anger, especially those of us doing so on Linux platforms. This list is a living work-in-progress. All details have been culled from official documentation, mailing lists, Autodesk support and the occasional reverse engineering. Please share any addendums or corrections using the Feedback at the bottom of the page.
+Anyone who uses Autodesk Maya in anger, especially those of us doing so on Linux platforms. This list is a living work-in-progress. All details have been culled from official documentation, mailing lists, Autodesk support and the occasional reverse engineering. 
+
+Many of these settings and better information can be gleaned by googling for [Autodesk's official docs](http://lmgtfy.com/?q=maya+2013+user+guide) but there are also quite a few items on this page not listed in any official documentation.
+
+Please share any updates, addendums or corrections using the Feedback at the bottom of the page.
 
 -Paul
 
@@ -45,8 +49,7 @@ Following is a list of known Maya variables and what they configure. You can ove
 ### MAYA_APP_DIR
 This variable defines your personal Maya application directory.
 
-    export MAYA_APP_DIR=$HOME/maya
-
+    export MAYA_APP_DIR=/opt/autodesk/maya/2013.5
 
 ### MAYA_UI_LANGUAGE
 This is most useful when you want to run Maya in English on a Japanese version of Windows OS, i.e. never.
@@ -77,9 +80,37 @@ Set this environment variable to 1 to disable parallel memory copy.
 In some cases, parallel memory copy is faster on Opteron and Nehalem based systems. However, it may also be slower on Xeon systems, in which case you may want to disable parallel memory. If you are using Maya 2011 on Xeon system and are faced with speed issues, this might be useful.
 
     unset MAYA_NO_PARALLEL_MEMCPY
+    
+### MAYA_FORCE_REF_READ
+By default, if you reference the same file twice, on file open Maya copies the existing nodes instead of re-reading them from disk. Occasionally, using this built-in multiple reference optimization feature of file referencing can cause errors. This environment variable turns off the file referencing optimization and forces reference files to be explicitly read in all cases. This fixes Maya’s behavior in some situations that would otherwise be evaluated incorrectly.
+
+    unset MAYA_FORCE_REF_READ
+
+### QT_PLUGIN_PATH
+Disable KDE's Qt imageformat plugins as Maya does not need them and they make Maya's startup 4 times slower. If you want to use KDE's Qt image formats and are willing to accept the performance degradation, unset this variable.
+
+    unset QT_PLUGIN_PATH
+
+## Developer options
+### XBMLANGPATH
+The searth path(s) for icon files, such as those used for shelf buttons. Icons are in BMP or XPM format.
+
+    export XBMLANGPATH=/somewhere/sensible:$XBMLANGPATH
+
+### MAYA_SCRIPT_PATH
+The search path(s) for shared MEL scripts.
+
+    export MAYA_SCRIPT_PATH=/somewhere/sensible:$MAYA_SCRIPT_PATH
 
 
+### MAYA_PLUG_IN_PATH
+The search paths(s) for shared compiled plug-ins.
 
+    export MAYA_PLUG_IN_PATH=/somewhere/sensible:$MAYA_PLUG_IN_PATH
 
+### MAYA_MODULE_PATH
+Defines the search paths for Maya module files. A module file describes the install location of a plugin which has been distributed as a module. Maya will append subdirectories of this install location to the following path variables: MAYA_PLUG_IN_PATH, MAYA_PRESET_PATH, MAYA_SCRIPT_PATH, PYTHONPATH and XBMLANGPATH. See [Distributing Maya Plug-ins() for more information](http://download.autodesk.com/us/maya/2010help/files/WS73099cc142f48755-4607e7cc11b1cfff5711f67.htm).
 
-
+    export MAYA_MODULE_PATH=/somewhere/sensible:$MAYA_MODULE_PATH
+    
+### 
