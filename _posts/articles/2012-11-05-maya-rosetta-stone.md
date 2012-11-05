@@ -168,7 +168,76 @@ This is a Baseblack invention making it possible to install multiple versions of
 
     export MAYA_VERSION=default
 
+Which versions can be specified are found issuing the command:
 
-
-
+    ls /opt/autodesk/maya/  
     
+### MAYA_LOCATION
+The path to where Maya is actually installed.
+
+    export MAYA_LOCATION=/opt/autodesk/maya/$MAYA_VERSION
+
+### TMPDIR
+Temporary directory for Maya (playblasts, render, etc.).
+
+    export TMPDIR=/tmp/$USER/maya
+
+### MI_LIBRARY_PATH
+Location of MentalRay library *.so files.
+
+     export MI_LIBRARY_PATH=$MAYA_LOCATION/mentalray/lib
+     
+### MAYA_SHADER_LIBRARY_PATH
+Path for ShaderLibrary files
+
+    export MAYA_SHADER_LIBRARY_PATH=$MAYA_LOCATION/mentalray/shaderlibrary
+
+### MAYA_HELP_URL
+Location of Maya Documentation. Use a URL shortener to make work around Autodesk's habit of moving their documentation URLs about at random.
+
+    export MAYA_HELP_URL=http://s.baseblack.com/maya2011docs
+    
+### MAYA_IP_TYPE
+Use this environment variable to set your IP version
+
+    export MAYA_IP_TYPE=ipv4
+
+
+### WEBBROWSER
+For web browser.
+
+    export WEBBROWSER=/usr/bin/google-chrome
+
+
+### MAYA_MOVIE_DIR
+This variable is used to override the directory where movie files are found. The default is ```$MAYA_LOCATION/movies```.
+
+    export MAYA_MOVIE_DIR=$MAYA_LOCATION/movies
+
+### MAYA_PAINT_EFFECTS_THREADS
+Threads to use when working with PaintEffects. Maximum 3.
+
+    export LIBQUICKTIME_PLUGIN_DIR=$MAYA_LOCATION/lib
+
+### LIBQUICKTIME_PLUGIN_DIR
+Location of the libquicktime plugins
+
+    export LIBQUICKTIME_PLUGIN_DIR=$MAYA_LOCATION/lib
+
+### MAYA_AUDIO_LIBRARY
+By default, this variable is set to 1 for the audio library used in previous versions of Maya. Set to 2 if you want to use the OpenAL audio library, which supports multiple track audio.
+
+    export MAYA_AUDIO_LIBRARY=1
+
+### MAYA_AUDIO_OPENAL_DEVICE
+This variable provides a string which lets you specify the OpenAL device driver to use. The system default driver is used by default. (Linux) On Linux this can be set to one of the following: alsa, oos, solaris, dsound, winmm, port, pulse, wave
+
+    export MAYA_AUDIO_OPENAL_DEVICE=pulse
+
+### MAYA_SOUND_SCRUB
+Disables the ability to scrub sound.
+
+    unset MAYA_SOUND_SCRUB
+
+## Licensing options
+
