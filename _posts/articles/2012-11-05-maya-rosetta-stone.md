@@ -409,19 +409,19 @@ This enables the use of the AdLM Thin Client configuration file discussed separa
 
      export AUTODESK_ADLM_THINCLIENT_ENV=$MAYA_LOCATION/adlm/AdlmThinClientCustomEnv.xml
 
-## Configuration Files
+# Configuration Files
 In addition to the usual environment variables there is now at least one XML configuration file where one can shoot themselves in the foot with Maya settings. 
 
-### AdlmThinClientCustomEnv.xml
+## AdlmThinClientCustomEnv.xml
 This file is quite powerful in that one relocate the various directories the Maya installer creates into something organised, sensible, supportable and working.
 
-#### Setup
+### Setup
 
 From the Licensing options above, you must first enable the use of this file with the following environment variable:
 
     export AUTODESK_ADLM_THINCLIENT_ENV=$MAYA_LOCATION/adlm/AdlmThinClientCustomEnv.xml
 
-#### Use
+### Use
 This is an XML file bearing options documented in the AdLM Thin Client User Guide. Not mentioned in that guide however is the extremely important key:
 
     <ADLMCUSTOMENV VERSION="1.0.0.0">
@@ -429,7 +429,7 @@ This is an XML file bearing options documented in the AdLM Thin Client User Guid
 This oversight has caused the author many days of existential pain and suffering.
 
 
-#### Example
+### Example
 The following file snippet actually works which is in itself a minor miracle:
 
     <?xml version="1.0" encoding="utf-8"?>
@@ -456,7 +456,7 @@ The following file snippet actually works which is in itself a minor miracle:
     </PLATFORM>
     </ADLMCUSTOMENV>
 
-## Product Keys
+# Product Keys
 Product keys are necessary for the installation of an Autodesk product. Here is a sampling of some of the Autodesk 2012 products:
 
     657D1 = Maya 2012
@@ -477,7 +477,7 @@ From this sampling, you can extrapolate the product keys for the 2011 products:
     240C1 = Revit Architecture 2011
     001C1 = AutoCAD 2011
 
-## Acknowledgements
+# Acknowledgements
 
 This document was researched using the following resources:
 
