@@ -30,6 +30,6 @@ Maya provides to its users an enormous array of sporadically documented features
 
 * Maya 2011 or newer
 * Linux, although much of this likely applies to Maya on Windows and OS X
-* bash shell and not csh as the latter is [bad for you](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot).
+* bash shell and not csh as the latter is [bad for you](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot)
 
 # Environment Variables
