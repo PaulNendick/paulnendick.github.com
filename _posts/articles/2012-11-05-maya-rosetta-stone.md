@@ -1,7 +1,7 @@
 ---
 published: true
 layout: article
-title: The Autodesk Maya Configuration Rosetta Stone
+title: The Maya Configuration Rosetta Stone
 abstract: A compendium of all known configuration options for Autodesk Maya.
 author_twitter: PaulNendick
 author: Paul Nendick
@@ -240,4 +240,3 @@ Disables the ability to scrub sound.
     unset MAYA_SOUND_SCRUB
 
 ## Licensing options
-
