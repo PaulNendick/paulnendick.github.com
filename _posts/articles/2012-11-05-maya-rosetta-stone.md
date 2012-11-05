@@ -481,7 +481,7 @@ From this sampling, you can extrapolate the product keys for the 2011 products:
 
 This document was researched using the following resources:
 
-http://download.autodesk.com/us/maya/2011help/index.html
+*[http://download.autodesk.com/us/maya/2011help/index.html](http://download.autodesk.com/us/maya/2011help/index.html)
 
 http://www.toxik.sk/mayaenv-configuration-of-variables/
 
