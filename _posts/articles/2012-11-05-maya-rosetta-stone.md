@@ -239,4 +239,147 @@ Disables the ability to scrub sound.
 
     unset MAYA_SOUND_SCRUB
 
+## Bug-fixes and workarounds
+
+### MAYA_HBDOWN_ENABLE
+Hotbox freezes Maya when switching contexts in Linux. Maya 2009 or later
+
+    export MAYA_HBDOWN_ENABLE=1
+
+
+### MAYA_HBDOWN_TIME
+Hotbox freezes Maya when switching contexts in Linux. Maya 2009 or later
+
+    export MAYA_HBDOWN_TIME=5000
+
+### MAYA_ACTIVE_STEREO_REFRESH
+When Active Stereo is on, after the hotbox/menu have been dismissed, the viewport may need to be forced refreshed.
+
+    export MAYA_ACTIVE_STEREO_REFRESH=1
+
+### MAYA_FORCE_SHOW_ACTIVATE
+May help in ensuring that popup windows are raised to the top of the list when using Gnome desktop (metacity window manager).
+
+    export MAYA_FORCE_SHOW_ACTIVATE=1
+
+### XLIB_SKIP_ARGB_VISUALS
+Disables ARGB visuals from being considered when an application asks for possible visuals to use. Useful when the X desktop composite extension is enabled.
+
+    export XLIB_SKIP_ARGB_VISUALS=1
+
+### MAYA_SET_XERROR
+Allows the user to force the XError handler to be re-installed. Maya 2008 SP1P04 or later.
+
+    export MAYA_SET_XERROR=1
+
+### MAYA_DISABLE_BACKSPACE_DELETE
+Disable backspace key as delete key.
+
+    export MAYA_DISABLE_BACKSPACE_DELETE=1
+
+### MAYA_SLOW_DRAWPIXELS
+For NVIDIA cards so they don’t produce failures when using PaintEffects and ImagePlanes.
+
+    export MAYA _SLOW_DRAWPIXELS=1
+
+### MAYA_NO_VERTEX_ARRAY_SELECT
+Use this, when your selection of objects in the viewport is slow (selection lag).
+
+    export MAYA_NO_VERTEX_ARRAY_SELECT=1
+
+### MAYA_NO_XGRAB
+Unknown effect.
+
+    export MAYA_NO_XGRAB=1
+
+### MAYA_NON_POWER_TWO_OFF
+Enable when you have problem with ImagePlanes in viewports.
+
+    export MAYA_NON_POWER_TWO_OFF=1
+
+### MAYA_GEFORCE_SKIP_OVERLAY
+Reduce flickering/stale view, if you are using Nvidia GeForce graphics cards/drivers.
+
+    export MAYA_GEFORCE_SKIP_OVERLAY=1
+
+### MI_MAYA_SOCKETS
+Set this flag to 1 so that you can preview your render in progress in imf_disp while rendering from the command line. You may need to adjust your firewall. In Linux you dont need this variable.
+
+unset MI_MAYA_SOCKETS
+
+### MAYA_DISABLE_MRFORMATS
+By default, Maya converts non-native image file formats into temporary IFF files so that they can be read. This variable allows you to disable the conversion of mental ray .ct and .st files. To disable it, set the value to 0 (zero) or leave it undefined.
+
+    unset MAYA_DISABLE_MRFORMAT
+
+### MAYA_DISABLE_MRMAP
+By default, Maya converts non-native image file formats into temporary IFF files so that they can be read. This variable allows you to disable the conversion of mental ray .map files. Disabling this conversion saves scene export time and render time. To disable it, set the value to 0 (zero) or leave it undefined.
+
+    unset MAYA_DISABLE_MRMAP
+
+### MAYA_HW_FILE_TEXTURE_RESOLUTION_OVERRIDE
+If you are using a file texture that uses MirrorUV and the resolution of the hardware rendered texture in the scene view appears degraded, use this environment variable.
+
+    export MAYA_HW_FILE_TEXTURE_RESOLUTION_OVERRIDE=1
+
+### MAYA_OFFSCREEN_HRB
+Set this flag to 1 to expose the Render Offscreen option in the Hardware Render Buffer > Render menu. When enabled, an offscreen buffer is used when rendering sequences using the Hardware Render Buffer. Single-frame renders will continue to be rendered into an on-screen buffer. During offscreen rendering, moving windows over the Hardware Render Buffer window does not affect the rendered frames, as would normally be the case.
+
+    export MAYA_OFFSCREEN_HRB=1
+
+### AW_JPEG_Q_FACTOR
+Quality of JPEG files that Maya renders out. (1-100) %
+
+    export AW_JPEG_Q_FACTOR=100
+
+### AW_JPEG_SUB_SAMPLING
+Allows you to control the subsampling quality of the rendered image. For best quality of JPG set it to “1×1,1×1,1×1″, default is 2×2,1×1,1×1.
+
+    export AW_JPEG_SUB_SAMPLING=1×1,1×1,1×1
+
+### MAYA_NO_JITTER_FINAL_COLOR
+Some randomness, or jitter, to the 8-bit color images are now disabled.
+
+    export MAYA_NO_JITTER_FINAL_COLOR=1
+
+### MAYA_RENDERER_RT_BACKGROUND_COLOR
+Maya includes the camera background in the calculation of reflection and refraction rays.
+
+    export MAYA_RENDERER_RT+BACKGROUND_COLOR=
+
+
 ## Licensing options
+### LM_LICENSE_FILE
+Location of license file.
+
+    export LM_LICENSE_FILE=$MAYA_LOCATION/adlm/maya.lic
+
+### MAYA_ALT_EN
+If you have multiple license files in your FlexLM directory you can set this environment variable to uniquely define your Maya license file and speed up the Maya start time.
+
+    export MAYA_ALT_EN=$MAYA_LOCATION/adlm/maya.lic
+
+### MAYA_LICENSE_METHOD
+Use network or standalone.
+
+    export MAYA_LICENSE_METHOD=network
+
+### ADSKFLEX_LICENSE_FILE
+Location on the network of the license server software. Possibly deprecated with AdLM/Maya2010.
+
+    export ADSKFLEX_LICENSE_FILE=@maya-licenses.baseblack.local
+
+### MAYA_LICENSE
+Use 'unlimited' or 'complete'. Possibly deprecated with Maya2010.
+
+    export MAYA_LICENSE=unlimited
+
+### FLEXLM_DIAGNOSTICS
+Use 1, 2 or 3 for greater verbosity.
+
+    export FLEXLM_DIAGNOSTICS=3
+
+### AUTODESK_ADLM_THINCLIENT_ENV
+This enables the use of the AdLM Thin Client configuration file discussed separately below.
+
+     export AUTODESK_ADLM_THINCLIENT_ENV=$MAYA_LOCATION/adlm/AdlmThinClientCustomEnv.xml
