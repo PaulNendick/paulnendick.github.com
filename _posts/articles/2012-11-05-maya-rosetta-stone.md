@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: article
 title: Maya Rosetta Stone
 abstract: A compendium of all known configuration otions for Autodesk Maya.
@@ -113,4 +113,4 @@ Defines the search paths for Maya module files. A module file describes the inst
 
     export MAYA_MODULE_PATH=/somewhere/sensible:$MAYA_MODULE_PATH
     
-### 
+###
