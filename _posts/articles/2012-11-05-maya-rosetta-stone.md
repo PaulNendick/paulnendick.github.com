@@ -1,7 +1,7 @@
 ---
 published: true
 layout: article
-title: Autodesk Maya Configuration Rosetta Stone
+title: The Autodesk Maya Configuration Rosetta Stone
 abstract: A compendium of all known configuration options for Autodesk Maya.
 author_twitter: PaulNendick
 author: Paul Nendick
